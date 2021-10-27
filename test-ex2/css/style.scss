@@ -1,0 +1,101 @@
+body{
+    .big-board{
+        background-color: #7f8c96;
+        height:auto;
+        padding: 20px;
+        // position: relative;
+    }
+    .board{
+        background-color: rgb(238, 231, 231);
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%,-50%);
+        padding: 15px 3px;
+        .fullname{
+            font-weight: 600;
+            color:gray;
+        }
+        h4.title{
+            text-align: center;
+            font-weight: 500;
+        }
+        .add-btn{
+            width: 100%;
+            display: flex;
+            margin:15px 0;
+        }
+        .row1{
+            .icons{
+                color: gray;
+                i{
+                    margin:0 5px;
+                    cursor: pointer;
+                    
+                }
+                label{
+                    margin: 0 5px;
+                    background-color: white;
+                    padding: 5px;
+                }
+            }
+        }
+        table{
+            tbody{
+                tr{
+                   .examine{
+                        text-decoration: underline;
+                        span{
+                            cursor: pointer;
+                            color: blue;
+                        }
+                    }
+                }               
+            }
+        }
+        
+    }
+
+    .modal{
+        .modal-dialog{
+            .modal-content{
+                .modal-header{
+                    i{
+                        cursor: pointer;
+                    }
+                }
+                .modal-body{
+                    .inputs{
+                        margin: 0 3px;
+                        div{
+                            margin: 0 5px;
+                            label{
+                                margin-left: 5px;
+                            }
+
+                        }
+                        button{
+                            height: 38px;
+                            margin-top: auto;
+                        }
+                    }
+                    .row1{
+                        .icons2{
+                            color: gray;
+                            i{
+                                margin:0 3px;
+                                cursor: pointer;
+                                
+                            }
+                            label{
+                                margin: 0 3px;
+                                background-color: white;
+                                padding: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

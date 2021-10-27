@@ -1,0 +1,89 @@
+body .big-board {
+  background-color: #7f8c96;
+  height: auto;
+  padding: 20px;
+}
+
+body .board {
+  background-color: #eee7e7;
+  padding: 15px 3px;
+}
+
+body .board .fullname {
+  font-weight: 600;
+  color: gray;
+}
+
+body .board h4.title {
+  text-align: center;
+  font-weight: 500;
+}
+
+body .board .add-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+}
+
+body .board .row1 .icons {
+  color: gray;
+}
+
+body .board .row1 .icons i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+body .board .row1 .icons label {
+  margin: 0 5px;
+  background-color: white;
+  padding: 5px;
+}
+
+body .board table tbody tr .examine {
+  text-decoration: underline;
+}
+
+body .board table tbody tr .examine span {
+  cursor: pointer;
+  color: blue;
+}
+
+body .modal .modal-dialog .modal-content .modal-header i {
+  cursor: pointer;
+}
+
+body .modal .modal-dialog .modal-content .modal-body .inputs {
+  margin: 0 3px;
+}
+
+body .modal .modal-dialog .modal-content .modal-body .inputs div {
+  margin: 0 5px;
+}
+
+body .modal .modal-dialog .modal-content .modal-body .inputs div label {
+  margin-left: 5px;
+}
+
+body .modal .modal-dialog .modal-content .modal-body .inputs button {
+  height: 38px;
+  margin-top: auto;
+}
+
+body .modal .modal-dialog .modal-content .modal-body .row1 .icons2 {
+  color: gray;
+}
+
+body .modal .modal-dialog .modal-content .modal-body .row1 .icons2 i {
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+body .modal .modal-dialog .modal-content .modal-body .row1 .icons2 label {
+  margin: 0 3px;
+  background-color: white;
+  padding: 3px;
+}
+/*# sourceMappingURL=style.css.map */
